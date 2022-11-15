@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,QAAQ,CAAA;EACJ,KAAK,EAAE,IAAI;EACX,gBAAgB,EAAE,OAAO;CAkD5B;;AApDD,AAGI,QAHI,CAGJ,KAAK,AAAA,MAAM,CAAA;EACP,OAAO,EAAE,GAAG;EACZ,aAAa,EAAE,GAAG,CAAC,KAAK,CAAC,OAAkB;CAC9C",
+    "sources": [
+        "yangi.scss"
+    ],
+    "names": [],
+    "file": "yangi.css"
+}

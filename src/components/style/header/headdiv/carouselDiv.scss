@@ -1,0 +1,125 @@
+.carousel{
+    width: 100%;
+    height: 55.1vh;
+    display: flex;
+    background-color: #ebeef3;
+    .scroll{
+        width: 20%;
+        height: 53vh;
+        margin-top: 15px;
+        // width: 100%;
+        // height: 53vh;
+        .overflow{
+            width: 100%;
+            height: 100%;
+            .div{
+                margin-left: 7%;
+                width: 90%;
+                border: 1px solid gray;
+                border-top: none;
+                border-left: none;
+                border-right: none;
+                .accordion{
+                    width: 100% !important;
+                    height: 100%;
+                    --bs-accordion-btn-icon-bg:#ebeef3;
+                    --bs-accordion-bg:#ebeef3;
+                    --bs-accordion-border-color:var(--bs-border-color-none);
+                    --bs-accordion-border-width:0px;
+                    --bs-accordion-inner-border-radius:none;--bs-accordion-btn-padding-x:1.2rem;
+                    --bs-accordion-border-radius:0rem;
+                    --bs-accordion-btn-padding-y:0.7rem;
+                    --bs-accordion-btn-color:#050506;--bs-accordion-btn-bg:var(--bs-accordion-bg);
+                    --bs-accordion-btn-icon:url(../headdiv/download4.jpeg);
+                    --bs-accordion-btn-active-icon:url(../headdiv/dowminus.png);
+                    --bs-accordion-btn-focus-border-color:#ebeef3;
+                    --bs-accordion-active-color:rgb(0, 0, 0);
+                    --bs-accordion-active-bg:#ebeef3;
+                    --bs-accordion-btn-focus-border-color:#ebeef3;
+                    --bs-accordion-btn-focus-box-shadow:#ebeef3;
+                    .item{
+                        --bs-accordion-border-color:#;
+                        --bs-accordion-border-color:var(--bs-border-color-none);
+                        --bs-accordion-border-width:0px;
+                        // --bs-accordion-transition:all 0.0s;
+                        --bs-accordion-border-radius:0rem;
+                    }
+                    .forimg{
+                        width: 25px;
+                        height: 38px;
+                        margin: 0px;
+                    }
+                    .textspan:hover{
+                        color: goldenrod;
+                    }
+                }
+            }
+            
+
+
+
+
+            // .wrapper{
+            //     display: flex;
+            //     justify-content: center;
+            //     align-items: center;
+            //     .accordion{
+            //         width: 210px;
+            //         .item{
+            //             background-color: #ebeef3;
+            //             margin-bottom: 10px;
+            //             .title{
+            //                 color: black;
+            //                 display: flex;
+            //                 justify-content: space-between;
+            //                 align-items: center;
+            //                 cursor: pointer;
+            //             }
+            //             .content{
+            //                 max-height: 0;
+            //                 overflow: hidden;
+            //                 transition: all 0.5s cubic-bezier(0,1,0,1);
+            //             }
+            //             .content.show{
+            //                 height: auto;
+            //                 max-height: 9999px;
+            //                 transition: all 0.5s cubic-bezier(1,0,1,0);
+            //             }
+            //         }
+            //     }
+
+            // }
+        }
+    }
+
+    .car{
+        width: 79%;
+        height: 53vh;
+        margin-top: 15px;
+        margin-left: 1%;
+        .car1{
+            width: 100%;
+            height: 99.9%;
+            .car2{
+                .img{
+                    width: 100%;
+                    height: 90%;
+                }
+            }
+        }
+    }
+}
+::-webkit-scrollbar{
+    width: 3px;
+    height: 100%;
+}
+::-webkit-scrollbar-track-piece{
+    background-color: rgb(187, 187, 187);
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: orange;
+}
+
+
+

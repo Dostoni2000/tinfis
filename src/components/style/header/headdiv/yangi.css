@@ -1,0 +1,10 @@
+.orqadiv {
+  width: 100%;
+  background-color: #ebeef3;
+}
+
+.orqadiv .href:hover {
+  padding: 0px;
+  border-bottom: 1px solid #9191ee;
+}
+/*# sourceMappingURL=yangi.css.map */
